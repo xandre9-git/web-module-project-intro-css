@@ -64,34 +64,30 @@ body {
 
 #parkGuide {
     font-family: 'Chelsea Market', cursive;
-    color: black;
     font-size: 4.8rem;    
 }
 
 .center {
     text-align: center;
+    color: black;
 }
 
 #desc {
-
+    margin: 10px;
+    border: 1px;
+    padding: 5px;
+    background-color: #DDB9A3;
+    color: white;
 }
 
 .buttons {
     background-color: white;
     color: white;
-    padding: 30px;
-    margin: 50px;
-    display: inline-block;
     border-radius: 25px;
     font-size: 2.4rem;
 } 
 
-#imgHeader {
-    border-radius: 50%;
-    width: 20%;
-    height: 20%;
-    
-}
+
 
 #plan {
     background-color: #FF764E;
@@ -103,4 +99,27 @@ body {
 
 #involve {
     background-color: #FFCD69;
+}
+
+#imgShrink {
+    height: 125px;
+    width: 125px;
+}
+
+.blackText {
+    color: black;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.navContainer nav a {
+    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: content-box;
 }
