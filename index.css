@@ -1,7 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/*
+
+ http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -23,7 +25,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+ HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,27 +49,58 @@ table {
 	border-spacing: 0;
 }
 
+*/
+
 html {
     font-size: 62.5%
-}
+    }
 
 body {
     background-color: white;
     color: orange;
     font-size: 1.6rem;
+    font-family: 'Roboto-Mono', monospace;
+}
+
+#parkGuide {
+    font-family: 'Chelsea Market', cursive;
+    color: black;
+    font-size: 4.8rem;    
+}
+
+.center {
+    text-align: center;
+}
+
+#desc {
+
 }
 
 .buttons {
     background-color: white;
-    color: black;
+    color: white;
     padding: 30px;
-    margin: 150px;
+    margin: 50px;
     display: inline-block;
     border-radius: 25px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
 } 
 
 #imgHeader {
     border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    
+}
+
+#plan {
+    background-color: #FF764E;
+}
+
+#learn {
+    background-color: #5ED3EB;
+}
+
+#involve {
+    background-color: #FFCD69;
 }
