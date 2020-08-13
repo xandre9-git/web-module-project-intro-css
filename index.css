@@ -62,12 +62,24 @@ body {
     font-family: 'Roboto-Mono', monospace;
 }
 
+#headerImg {
+    height: 15%;
+    width: 15%;
+    display: inline-block;
+    margin-left: 350px;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+}
+
 #parkGuide {
     font-family: 'Chelsea Market', cursive;
-    font-size: 4.8rem; 
+    font-size: 5.4rem; 
     width: 600px;
+    display: inline-block; 
     position: relative;
-    left: 50%;   
+    top: -140px;
+    left: 90px;
 }
 
 .center {
@@ -92,6 +104,10 @@ body {
     color: white;
     border-radius: 25px;
     font-size: 2.4rem;
+    width: 20rem;
+    
+    display: inline-block;
+    position: relative;
 } 
 
 
@@ -122,7 +138,7 @@ p {
 }
 
 .navContainer nav a {
-    margin: 50px;
+    margin: 75px;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
@@ -135,16 +151,20 @@ p {
     padding: 5;
     margin-bottom: 18px;
     width: 600px;
+    display: inline-block;
     position: relative;
-    left: 50%;
+    left: 75px;
+    top: -150px;
 }
 
 .smallerBox {
     padding: 5;
     margin-bottom: 72px;
     width: 400px;
+    display: block;
     position: relative;
-    left: 55%;
+    left: 43%;
+    top: -150px;
 }
 
 #fire {
